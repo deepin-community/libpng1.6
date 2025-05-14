@@ -7,6 +7,7 @@
 export DEB_BUILD_MAINT_OPTIONS   := hardening=+all
 export DEB_CFLAGS_MAINT_APPEND   := $(shell dpkg-buildflags --get CPPFLAGS)
 export DEB_CXXFLAGS_MAINT_APPEND := $(shell dpkg-buildflags --get CPPFLAGS)
+export DPKG_GENSYMBOLS_CHECK_LEVEL = 4
 CC?=gcc
 
 %:

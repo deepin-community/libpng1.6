@@ -1,8 +1,59 @@
-libpng1.6 (1.6.45-1deepin1) unstable; urgency=medium
+libpng1.6 (1.6.48-1deepin1) unstable; urgency=medium
 
   * Revert t64.
 
- -- Liu Yi <lhdjply@126.com>  Thur, 16 Jan 2025 17:28:30 +0800
+ -- lhdjply <lhdjply@126.com>  Wed, 14 May 2025 11:02:30 +0800
+
+libpng1.6 (1.6.48-1) unstable; urgency=medium
+
+  * New upstream version 1.6.48
+  * Ack previous NMU, thanks a lot!
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Mon, 05 May 2025 21:11:18 +0200
+
+libpng1.6 (1.6.47-1.1) unstable; urgency=high
+
+  * Non-maintainer upload.
+  * Restore dh_makeshlibs override to fix missing udeb line in shlibs.
+    (Closes: #1100477)
+
+ -- Cyril Brulebois <kibi@debian.org>  Fri, 14 Mar 2025 10:39:59 +0100
+
+libpng1.6 (1.6.47-1) unstable; urgency=medium
+
+  * New upstream version 1.6.47
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Fri, 21 Feb 2025 08:01:34 +0100
+
+libpng1.6 (1.6.46-4) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Jeremy Bícha ]
+  * Set dpkg-gensymbols check level to 4
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Sat, 01 Feb 2025 18:23:23 +0100
+
+libpng1.6 (1.6.46-3) unstable; urgency=medium
+
+  * Add a symbols file for easier maintenance of the package
+    and added symbols
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Sat, 01 Feb 2025 08:12:46 +0100
+
+libpng1.6 (1.6.46-2) unstable; urgency=medium
+
+  * Bump shlibs to 1.6.45 due to gtk4 test regression in cICP
+    https://gitlab.gnome.org/GNOME/gtk/-/issues/7275
+    (Closes: #1093335)
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Fri, 31 Jan 2025 15:10:07 +0100
+
+libpng1.6 (1.6.46-1) unstable; urgency=medium
+
+  * New upstream version 1.6.46
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Mon, 27 Jan 2025 09:30:18 +0100
 
 libpng1.6 (1.6.45-1) unstable; urgency=medium
 
