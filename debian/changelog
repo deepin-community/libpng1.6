@@ -1,3 +1,10 @@
+libpng1.6 (1.6.45-1deepin2) unstable; urgency=medium
+
+  * fix CVE-2025-66293 CVE-2025-65018 CVE-2025-64720 CVE-2025-64506
+    CVE-2025-64505 
+
+ -- zengwei <zengwei1@uniontech.com>  Tue, 23 Dec 2025 14:17:53 +0800
+
 libpng1.6 (1.6.45-1deepin1) unstable; urgency=medium
 
   * Revert t64.
