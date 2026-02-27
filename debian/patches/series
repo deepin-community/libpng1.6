@@ -2,3 +2,4 @@ libpng-config.patch
 #libpng-1.6.39-apng.patch
 0002-Fix-a-heap-buffer-over-read-in-png_image_read_direct.patch
 0003-fix-Remove-incorrect-truncation-casts-from-png_write.patch
+CVE-2026-25646.patch
