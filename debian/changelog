@@ -1,3 +1,14 @@
+libpng1.6 (1.6.53-1deepin4) unstable; urgency=medium
+
+  * Import patches from upstream:
+    - debian/patches/0005-fix-Resolve-use-after-free-on-png_ptr-trans_alpha.patch
+    - debian/patches/0006-fix-Resolve-use-after-free-on-png_ptr-palette.patch
+    - debian/patches/0007-fix-Sync-info_ptr-palette-after-in-place-transforms.patch
+    - debian/patches/0008-fix-arm-Resolve-out-of-bounds-read-write-in-NEON-pal.patch
+    Fixes: CVE-2026-33416, CVE-2026-33636
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Mon, 30 Mar 2026 14:03:28 +0800
+
 libpng1.6 (1.6.53-1deepin3) unstable; urgency=medium
 
   * fix CVE-2026-25646 

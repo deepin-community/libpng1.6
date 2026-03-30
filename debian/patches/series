@@ -3,3 +3,7 @@ libpng-config.patch
 0002-Fix-a-heap-buffer-over-read-in-png_image_read_direct.patch
 0003-fix-Remove-incorrect-truncation-casts-from-png_write.patch
 CVE-2026-25646.patch
+0005-fix-Resolve-use-after-free-on-png_ptr-trans_alpha.patch
+0006-fix-Resolve-use-after-free-on-png_ptr-palette.patch
+0007-fix-Sync-info_ptr-palette-after-in-place-transforms.patch
+0008-fix-arm-Resolve-out-of-bounds-read-write-in-NEON-pal.patch
