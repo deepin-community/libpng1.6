@@ -7,3 +7,5 @@ CVE-2026-25646.patch
 0006-fix-Resolve-use-after-free-on-png_ptr-palette.patch
 0007-fix-Sync-info_ptr-palette-after-in-place-transforms.patch
 0008-fix-arm-Resolve-out-of-bounds-read-write-in-NEON-pal.patch
+0009-fix-Handle-self-referencing-pointers-in-getter-to-se.patch
+0010-fix-Handle-getter-to-setter-aliasing-in-append-style.patch
