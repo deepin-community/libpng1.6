@@ -1,3 +1,12 @@
+libpng1.6 (1.6.53-1deepin5) unstable; urgency=medium
+
+  * Import patches from upstream:
+    - debian/patches/0009-fix-Handle-self-referencing-pointers-in-getter-to-se.patch
+    - debian/patches/0010-fix-Handle-getter-to-setter-aliasing-in-append-style.patch
+    Fixes: CVE-2026-34757
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Thu, 09 Apr 2026 21:25:45 +0800
+
 libpng1.6 (1.6.53-1deepin4) unstable; urgency=medium
 
   * Import patches from upstream:
