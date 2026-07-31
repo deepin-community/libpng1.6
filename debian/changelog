@@ -1,42 +1,42 @@
-libpng1.6 (1.6.53-1deepin5) unstable; urgency=medium
+libpng1.6 (1.6.58-1) unstable; urgency=medium
 
-  * Import patches from upstream:
-    - debian/patches/0009-fix-Handle-self-referencing-pointers-in-getter-to-se.patch
-    - debian/patches/0010-fix-Handle-getter-to-setter-aliasing-in-append-style.patch
-    Fixes: CVE-2026-34757
+  * New upstream version 1.6.58
+    - Fix regression in 1.6.57
 
- -- Tianyu Chen <sweetyfish@deepin.org>  Thu, 09 Apr 2026 21:25:45 +0800
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Fri, 17 Apr 2026 14:34:10 +0200
 
-libpng1.6 (1.6.53-1deepin4) unstable; urgency=medium
+libpng1.6 (1.6.57-1) unstable; urgency=medium
 
-  * Import patches from upstream:
-    - debian/patches/0005-fix-Resolve-use-after-free-on-png_ptr-trans_alpha.patch
-    - debian/patches/0006-fix-Resolve-use-after-free-on-png_ptr-palette.patch
-    - debian/patches/0007-fix-Sync-info_ptr-palette-after-in-place-transforms.patch
-    - debian/patches/0008-fix-arm-Resolve-out-of-bounds-read-write-in-NEON-pal.patch
-    Fixes: CVE-2026-33416, CVE-2026-33636
+  * New upstream version 1.6.57
+    - CVE-2026-34757 - heap information disclosure (Closes: #1133051)
 
- -- Tianyu Chen <sweetyfish@deepin.org>  Mon, 30 Mar 2026 14:03:28 +0800
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Sun, 12 Apr 2026 18:08:25 +0200
 
-libpng1.6 (1.6.53-1deepin3) unstable; urgency=medium
+libpng1.6 (1.6.56-1) unstable; urgency=high
 
-  * fix CVE-2026-25646 
+  * New upstream release 1.6.56
+    - CVE-2026-33416 - Use after free (Closes: #1132012)
+    - CVE-2026-33636 - OOB read/write (Closes: #1132013)
 
- -- zengwei <zengwei1@uniontech.com>  Fri, 27 Feb 2026 15:51:04 +0800
+ -- Tobias Frost <tobi@debian.org>  Sun, 29 Mar 2026 08:36:13 +0200
 
-libpng1.6 (1.6.53-1deepin2) unstable; urgency=medium
+libpng1.6 (1.6.55-1) unstable; urgency=medium
 
-  * Security fix from upstream:
-    - CVE-2026-22695: Heap buffer over-read in png_image_read_direct_scaled
-    - CVE-2026-22801: Integer truncation causing heap buffer over-read in png_image_write_*
+  * New upstream version 1.6.55
+    - CVE-2026-25646 (Closes: #1127566)
+  * Bump std-version to 4.7.3, no changes required
+  * Drop R^3: no, default now
 
- -- Tianyu Chen <sweetyfish@deepin.org>  Wed, 14 Jan 2026 14:46:41 +0800
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Thu, 12 Feb 2026 10:55:21 +0100
 
-libpng1.6 (1.6.53-1deepin1) unstable; urgency=medium
+libpng1.6 (1.6.54-1) unstable; urgency=medium
 
-  * Revert t64 suffix.
+  * New upstream version 1.6.54.
+    - CVE-2026-22695 - Heap buffer overread. Closes: #1125443
+    - CVE-2026-22801 - Heap buffer overread. Closes: #1125444
+  * Bump d/copyright years.
 
- -- Tianyu Chen <sweetyfish@deepin.org>  Wed, 14 Jan 2026 14:26:54 +0800
+ -- Tobias Frost <tobi@debian.org>  Fri, 16 Jan 2026 08:49:40 +0100
 
 libpng1.6 (1.6.53-1) unstable; urgency=medium
 

@@ -1,11 +1,2 @@
 libpng-config.patch
-#libpng-1.6.39-apng.patch
-0002-Fix-a-heap-buffer-over-read-in-png_image_read_direct.patch
-0003-fix-Remove-incorrect-truncation-casts-from-png_write.patch
-CVE-2026-25646.patch
-0005-fix-Resolve-use-after-free-on-png_ptr-trans_alpha.patch
-0006-fix-Resolve-use-after-free-on-png_ptr-palette.patch
-0007-fix-Sync-info_ptr-palette-after-in-place-transforms.patch
-0008-fix-arm-Resolve-out-of-bounds-read-write-in-NEON-pal.patch
-0009-fix-Handle-self-referencing-pointers-in-getter-to-se.patch
-0010-fix-Handle-getter-to-setter-aliasing-in-append-style.patch
+#libpng-1.6.57-apng.patch
