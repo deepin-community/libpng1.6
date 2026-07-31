@@ -3,9 +3,9 @@ Upstream-Name: libpng
 Source: http://www.libpng.org/pub/png/
 
 Files: *
-Copyright: 1995-2025 The PNG Reference Library Authors.
+Copyright: 1995-2026 The PNG Reference Library Authors.
            1998-2018 Glenn Randers-Pehrson
-           2018-2025 Cosmin Truta
+           2018-2026 Cosmin Truta
 License: libpng
 
 Files: arm/*
@@ -79,8 +79,8 @@ Copyright:      2001 Philippe Troin <phil@fifi.org>
                 2003 Josselin Mouette <joss@debian.org>
            2006-2009 Anibal Monsalve Salazar <anibal@debian.org>
            2011-2014 Nobuhiro Iwamatsu <iwamatsu@debian.org>
-           2016-2025 Gianfranco Costamagna <locutusofborg@debian.org>
-           2016-2025 Tobias Frost <tobi@debian.org>
+           2016-2026 Gianfranco Costamagna <locutusofborg@debian.org>
+           2016-2026 Tobias Frost <tobi@debian.org>
 License: GPL-2+
 
 License: expat

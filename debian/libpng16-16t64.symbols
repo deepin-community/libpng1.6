@@ -1,4 +1,4 @@
-libpng16.so.16 libpng16-16 #MINVER#
+libpng16.so.16 libpng16-16t64 #MINVER#
 * Build-Depends-Package: libpng-dev
  PNG16_0@PNG16_0 1.6.46
  png_access_version_number@PNG16_0 1.6.46

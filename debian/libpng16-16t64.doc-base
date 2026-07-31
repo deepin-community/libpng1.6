@@ -22,4 +22,4 @@ Abstract: This file describes how to use and modify the PNG reference library
 Section: Programming
 
 Format: text
-Files: /usr/share/doc/libpng16-16/libpng-manual.txt.gz
+Files: /usr/share/doc/libpng16-16t64/libpng-manual.txt.gz
